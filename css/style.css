@@ -6,20 +6,69 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    padding: 20px;
 }
 
 .hero__box {
-
+    position: relative;
 }
-
 .hero {
-    height: 825px;
-    left: 40px;
-    right: 38px;
-    top: 39px;
-    background: url('img/hero-img.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    background-image: url("../img/hero-img.jpg");
+    background-color: #cccccc;
 }
 
+.hero__logo {
+    color: white;
+    font-family: Syncopate;
+    line-height: 16px;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.27em;
+    padding-top: 10px;
+    position: absolute;
+    border: 2px solid #F6F2F2;
+    box-sizing: border-box;
+    mix-blend-mode: exclusion;
+    width: 72px;
+    height: 71px;
+    left: 61px;
+    top: 58px;
+}
+.hero__triangle {
+    background-image: url("../img/header-triangle.jpg");
+    background-size: cover;
+    background-position: top;
+    background-position-x: -3rem;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 661px;
+    height: 592.58px;
+    left: 390px;
+    top: 134.27px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .hero__ul {
-    font-family: 'Syncopate', sans-serif;
+    position: absolute;
+    z-index: 3;
+    text-transform: uppercase;
+    font-family: 'Syncopate';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 108px;
+    font-size: 106px;
+    text-align: center;
+    letter-spacing: -2.2px;
+    color: #FFFFFF;
+}
+
+.hero__ul--innovate {
+    color: transparent;
+        -webkit-text-stroke: 2px black;
+        text-stroke: 2px black;
+        text-shadow: none;
 }
