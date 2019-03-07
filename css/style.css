@@ -1,3 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero__box {
+
+}
+
 .hero {
-    background-color: red;
+    height: 825px;
+    left: 40px;
+    right: 38px;
+    top: 39px;
+    background: url('img/hero-img.jpg');
+}
+
+.hero__ul {
+    font-family: 'Syncopate', sans-serif;
 }
