@@ -1,7 +1,19 @@
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+
 }
 
 a {
@@ -11,6 +23,8 @@ a {
 body {
     font-family: 'Poppins', sans-serif;
     padding: 20px;
+    width: 100%;
+    height: 100%
 }
 
 .hero__box {
@@ -37,6 +51,7 @@ body {
     box-sizing: border-box;
     mix-blend-mode: exclusion;
     background-color: transparent;
+    text-transform: uppercase;
     width: 72px;
     height: 71px;
     left: 61px;
@@ -85,42 +100,46 @@ body {
 .hero__ul li {
     display: block;
     padding: 20px;
+    letter-spacing: 1px;
 }
 
 .hero__ul--innovate {
     color: transparent;
-        -webkit-text-stroke: 2px white;
-        text-shadow: none;
-        font-family: sans-serif;
+    -webkit-text-stroke: 1px white;
+    text-shadow: none;
+    font-family: Syncopate;
 }
 
 .hero__nav {
-        text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.6);
-        color: #F6F2F2;
-        padding: 10px;
-        top: 82%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        list-style-type: none;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200px;
-        line-height: 15px;
-        font-size: 16px;
-        text-align: center;
-        letter-spacing: 0.30em;
-        position: absolute;
-        z-index: 3;
-        display: -webkit-inline-box;
+    text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    color: #F6F2F2;
+    padding: 10px;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200px;
+    line-height: 87px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.30em;
+    position: absolute;
+    z-index: 3;
+    display: -webkit-inline-box;
     }
-
+ /* Mobile nav */
+ 
 .hero__nav a {
     color: #F6F2F2;
-
+    display: block;
 }
 
 .hero__nav a:link {
     transition: all .3s;
+    display: block;
 }
 
 
@@ -130,8 +149,8 @@ body {
 
 .hero__nav a:hover {
     transform: translateY(-1px);
-    padding: 0px 2px 10px 2px;
-    box-shadow: 0 2px 1px -1px rgba(241, 240, 240, 0.637);
+    box-shadow: 0 2px 0px -1px rgba(241, 240, 240, 0.637);
+    display: block;
 
 }
 
@@ -142,3 +161,22 @@ body {
 .hero__nav li {
     padding: 5px;
 }
+
+@media screen and (max-device-width: 480px)  {
+    .hero__nav {
+        display: none;
+    }
+} 
+
+p {
+    margin: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .blue {
+    color: blue;
+  }
+  .highlight {
+    background: yellow;
+  }

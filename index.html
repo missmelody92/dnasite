@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-<title>D&A Artspace</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>D&A Artspace</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -20,6 +23,11 @@
             <li><a href="">Consultancy</a></li>
             <li><a href="">Enquire</a></li>
         </nav>
+
+<!--    Mobile Nav    -->
+ 
+
+      </nav>
             <ul class="hero__ul">
                 <li>Educate</li>
             <span class="hero__ul--innovate"><li>Innovate</li></span>
@@ -89,6 +97,16 @@
             <img src="img/volcano_logo.svg" alt="Volcano logo"><p>Site by <a href="http://wearevolcano.com/">Volcano</a></p>   
         </aside>
     </footer>
+    <p class="blue">Click to toggle</p>
+<p class="blue highlight">highlight</p>
+<p class="blue">on these</p>
+<p class="blue">paragraphs</p>
+ 
+<script>
+$( "p" ).click(function() {
+  $( this ).toggleClass( "highlight" );
+});
+</script>
 </body>
 
 </html>
