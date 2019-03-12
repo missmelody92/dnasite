@@ -4,6 +4,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>D&A Artspace</title>
     <meta charset="utf-8">
@@ -39,6 +40,7 @@
 
     <main>
         <section class="about">
+            <p><a id="get_started" class="btn btn-lg btn-sucess" href="#" role="button"Get started today></a></p>
             <h1 class="about__title">What We Do</h1>
             <span class="about__underline"></span>
             <p class="about__body">Award Winning Hair Professionals, Dale Herne and Angelo Vallillo, are the latest innovators in the industry. The pair have taught their high in demand courses all over the world including Europe and Asia. Their beliefs are, in order to be the best, it is a must you are up to date with the latest hair techniques.
@@ -55,7 +57,7 @@
             <img class="academy__img" src="" alt="Eastern British Hairdressing Awards">
             <img class="academy__img" src="" alt="Eastern British Hairdressing Awards">
             <img class="academy__img" src="" alt="Eastern British Hairdressing Awards">
-            <a href="">View Courses</a>
+            <p<a id="view_details" class="btn btn-primary" href="#" role="button">View Courses</a></p>
             <button class="academy__button"><img src="img/right-arrow.svg"></button>
         </section>
         <section class="business">
@@ -103,8 +105,11 @@
 <p class="blue">paragraphs</p>
  
 <script>
-$( "p" ).click(function() {
-  $( this ).toggleClass( "highlight" );
+$(document).ready(function() {
+    $('#view_details').on('click', function() {
+    $('#get_started').toggle();
+});
+
 });
 </script>
 </body>
