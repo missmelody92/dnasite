@@ -177,6 +177,11 @@ body {
         font-size: 50px;
 } 
 
+.hero__triangle {
+    width: 98%;
+    height: 50%;
+}
+
 
 p {
     margin: 4px;
