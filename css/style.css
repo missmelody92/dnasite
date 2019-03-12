@@ -164,7 +164,12 @@ body {
     .hero__nav {
         display: none;
     }
+
+    .hero {
+        width: 100vh;
+    }
 } 
+
 
 p {
     margin: 4px;
