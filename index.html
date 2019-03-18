@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>D&A Artspace</title>
     <meta charset="utf-8">
@@ -17,6 +18,14 @@
         <a class="hero__logo" href="#">
             The Dna Way
         </a>
+
+<!--    Mobile Nav    -->
+        <button class="hamburger hamburger--spin" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+
         <nav class="hero__nav">
             <li><a href="">Profile</a></li>
             <li><a href="">Instruction</a></li>
@@ -25,7 +34,7 @@
             <li><a href="">Enquire</a></li>
         </nav>
 
-<!--    Mobile Nav    -->
+
  
 
       </nav>
@@ -105,12 +114,11 @@
 <p class="blue">paragraphs</p>
  
 <script>
-$(document).ready(function() {
-    $('#view_details').on('click', function() {
-    $('#get_started').toggle();
+$('.hamburger').click(function(e){
+  e.preventDefault();
+  $(this).toggleClass('is-active');
 });
 
-});
 </script>
 </body>
 

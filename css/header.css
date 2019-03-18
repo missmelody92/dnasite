@@ -1,5 +1,7 @@
 .hero__box {
     position: relative;
+        height: 100vh;
+        width: auto;
 }
 .hero {
     height: 100vh;
@@ -50,6 +52,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .hero__ul {
     position: absolute;
     top: 50%;
@@ -132,21 +135,40 @@
     padding: 5px;
 }
 
+@media screen and (max-width: 700px) {
+    .hamburger,
+    .hamburger--spin,
+    .hamburger-box,
+    .hamburger-inner {
+        display: none;
+    }
+
+}
 
 @media screen and (max-width: 480px)  {
+    .hero__logo {
+        top:auto;
+        left: 80%;
+    }
+    .hero__box {
+        position: relative;
+            height: 100vh;
+            width: auto;
+        }
+    
     .hero__nav {
         display: none;
     }
 
     .hero {
         width: auto;
-        background-position-x: -45em;
+        background-position-x: right;
         background-repeat: no-repeat;
     }
 
     .hero__ul {
         line-height: 22px;
-        font-size: 50px;
+        font-size: 40px;
 } 
 
 .hero__triangle {
