@@ -148,6 +148,7 @@
         display: none;
     }
 
+    .overlay a,
     .overlay {
         display: none;
     }
@@ -202,7 +203,11 @@
       /* The navigation links inside the overlay */
       .overlay a {
         padding: 10px;
+        text-transform: uppercase;
         text-decoration: none;
+        color: #F6F2F2;
+        font-family: 'Poppins';
+        text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.6);
         font-size: 3vh;
         color: white;
         display: block; /* Display block instead of inline */
