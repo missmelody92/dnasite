@@ -37,12 +37,6 @@
     top: 58px;
 }
 
-.hero__logo:hover {
-    background-color: white;
-    color: black;
-    mix-blend-mode: normal;
-
-}
 
 .hero__triangle {
     background-image: url("../img/header-triangle.jpg");
@@ -221,7 +215,6 @@
       }
     .overlay .closebtn {
         position: absolute;
-        top: 15px;
         right: 35px;
         font-size: 40px;
       }
