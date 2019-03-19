@@ -25,14 +25,14 @@
               <span class="hamburger-inner"></span>
             </span>
           </button>
-
-        <nav class="hero__nav">
+          <div class="hero__nav">
+                <a href="#" class="closebtn">&times;</a>
             <li><a href="">Profile</a></li>
             <li><a href="">Instruction</a></li>
             <li><a href="">Management Traning</a></li>
             <li><a href="">Consultancy</a></li>
             <li><a href="">Enquire</a></li>
-        </nav>
+    </div>
 
 
  
@@ -117,6 +117,14 @@
 $('.hamburger').click(function(e){
   e.preventDefault();
   $(this).toggleClass('is-active');
+  $('.hero__nav').toggleClass('is-active');
+});
+
+$(".closebtn").click(function(){
+  $(".hero__nav").css("visibility","hidden");
+});
+$(".hamburger").click(function(){
+  $(".hero__nav").css("visibility","visible");
 });
 
 </script>
