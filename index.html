@@ -10,9 +10,11 @@
     <title>D&A Artspace</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    
 </head>
 
 <body>
+    
 <div class="hero__box">
     <header class="hero">
         <a class="hero__logo" href="#">
@@ -20,21 +22,26 @@
         </a>
 
 <!--    Mobile Nav    -->
-        <button class="hamburger hamburger--spin" type="button">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-            </span>
-          </button>
-          <div class="hero__nav">
-                <a href="#" class="closebtn">&times;</a>
+<div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
             <li><a href="">Profile</a></li>
             <li><a href="">Instruction</a></li>
             <li><a href="">Management Traning</a></li>
             <li><a href="">Consultancy</a></li>
             <li><a href="">Enquire</a></li>
     </div>
+</div>
+<span class="openbutton" onclick="openNav()">open</span>
 
 
+<div class="hero__nav">
+    <li><a href="">Profile</a></li>
+    <li><a href="">Instruction</a></li>
+    <li><a href="">Management Traning</a></li>
+    <li><a href="">Consultancy</a></li>
+    <li><a href="">Enquire</a></li>
+</div>
  
 
       </nav>
@@ -108,26 +115,21 @@
             <img src="img/volcano_logo.svg" alt="Volcano logo"><p>Site by <a href="http://wearevolcano.com/">Volcano</a></p>   
         </aside>
     </footer>
+    <script>
+        function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+           
+            
+            </script>
     <p class="blue">Click to toggle</p>
 <p class="blue highlight">highlight</p>
 <p class="blue">on these</p>
 <p class="blue">paragraphs</p>
  
-<script>
-$('.hamburger').click(function(e){
-  e.preventDefault();
-  $(this).toggleClass('is-active');
-  $('.hero__nav').toggleClass('is-active');
-});
-
-$(".closebtn").click(function(){
-  $(".hero__nav").css("visibility","hidden");
-});
-$(".hamburger").click(function(){
-  $(".hero__nav").css("visibility","visible");
-});
-
-</script>
 </body>
 
 </html>

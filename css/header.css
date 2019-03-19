@@ -140,10 +140,24 @@
     padding: 5px;
 }
 
+
 @media screen and (min-width: 700px) {
     .closebtn {
       display: none;
     }
+
+    .openbutton {
+        display: none;
+    }
+
+    .myNav {
+        display: none;
+    }
+
+    .overlay {
+        display: none;
+    }
+
   }
 
 
@@ -161,25 +175,57 @@
     .hero__nav {
         display: none;
     }
-    .hero__nav.is-active {
-        display: block;
-        padding-top: 5%;
-        line-height: inherit;
-        font-size: 5vw;
-        text-align: left;
-        z-index: 4;
-        height: -webkit-fill-available;
-        width: -webkit-fill-available;
-        background-color: black;
-        transform: translate(-50%, -85%);
+
+    .openbutton {
+        width: 35px;
+  height: 5px;
+  background-color:white;
+  margin: 6px 0;
     }
 
-    #closebtn {
-        font-size: 40px;
-        position: absolute;
-        top: 5%;
-        right: 5%;
+    .overlay {
+        height: 50vh;
+        width: auto;
+        position: fixed;
+        z-index: 5;
+        left: 0;
+        top: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
     }
+    .overlay-content {
+        list-style-type: none;
+        height: 50vh;
+        top: 25%; /* 25% from the top */
+        width: 100%; /* 100% width */
+        text-align: center; /* Centered text/links */
+        margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+      }
+      
+      /* The navigation links inside the overlay */
+      .overlay a {
+        padding: 10px;
+        text-decoration: none;
+        font-size: 3vh;
+        color: white;
+        display: block; /* Display block instead of inline */
+        transition: 0.3s; /* Transition effects on hover (color) */
+      }
+      
+      /* When you mouse over the navigation links, change their color */
+      .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+      }
+    .overlay .closebtn {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        font-size: 40px;
+      }
+    
+
 
     .hero__nav li {
         padding: 4%;
