@@ -183,6 +183,7 @@
     }
 
     .overlay {
+        display: none;
         height: 50vh;
         width: auto;
         position: fixed;
@@ -195,6 +196,7 @@
         transition: 0.5s;
     }
     .overlay-content {
+        display: block;
         list-style-type: none;
         height: 50vh;
         top: 25%; /* 25% from the top */
