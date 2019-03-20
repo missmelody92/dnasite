@@ -173,11 +173,22 @@
 
     .openbutton {
         color: white;
+        overflow: hidden;
         font-size: 40px;
         margin-left: 10px;
     }
 
+    .block1,
+    .block2,
+    .block3 {
+        background-color: white;
+        width: 35px;
+        height: 5px;
+        margin-top: 4px;
+    }
+
     .overlay {
+        overflow: hidden;
         display: none;
         height: 50vh;
         width: auto;
