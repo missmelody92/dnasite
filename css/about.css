@@ -69,18 +69,15 @@
 }
 
 .about__body {
-    width: 241px;
+    width: 330px;
     height: 200px;
     position: absolute;
     padding-top: 60px;
-    padding-left: 30px;
+    padding-left: 16px;
     font-size: 10px;
     letter-spacing: 0px;
     line-height: 13px;
 }
-
-
-
 
 .about__image1 {
     right: 0%;
@@ -97,8 +94,8 @@
 
 .img-parent {
     position: relative;
-    height: 100VH;
-    width: auto;
+    height: 500px;
+    width: 350px;
     margin-top: 15%;
     left: 50%;
     margin-left: -166px;
