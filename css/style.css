@@ -23,8 +23,14 @@ a {
 body {
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    height: 100%
+    height: 100%;
+    background-color: #f8f4f4
 }
+
+.academy {
+  margin-top: 20%;
+}
+
 
 
 
