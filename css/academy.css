@@ -1,0 +1,91 @@
+.academy {
+    background-color:  #292929;
+}
+
+.academy-parent {
+    position: relative;
+    height: 1000px;
+    width: 500px;
+    margin-top: 30%;
+    left: 50%;
+    margin-left: -170px;
+}
+
+h1.academy__stylist {
+    font-size: 60px;
+    font-family: Syncopate;
+    color: #F3F3F3;
+    text-transform: uppercase;
+    font-weight: 300;
+    top: 309px;
+    left: -358px;
+    margin-bottom: 5px;
+    position: absolute;
+}
+
+h1.academy__instruction {
+    font-size: 60px;
+    font-family: Syncopate;
+    color: #F3F3F3;
+    text-transform: uppercase;
+    border-bottom: 3px solid #F3F3F3;
+    font-weight: 200;
+    top: 355px;
+    left: -495px;
+    z-index: 4;
+    margin-left: 243px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.academy__img1 {
+    height: 411px;
+    right: -2%;
+    top: 290px;
+    z-index: 3;
+    width: 330px;
+    position: absolute;
+}
+
+.academy__img2 {
+    height: 383px;
+    width: 340px;
+    top: -11%;
+    right: -26%;
+    z-index: 1;
+    position: absolute;
+}
+
+.academy__img3 {
+    height: 346px;
+    width: 290px;
+    top: 15%;
+    right: -77%;
+    position: absolute;
+}
+
+.academy__button {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 445px;
+    right: -384px;
+    z-index: 3;
+    text-align: center;
+    font-size: 81px;
+}
+
+p.academy__body {
+    width: 500px;
+    height: 300px;
+    font-family: poppins;
+    position: absolute;
+    top: 530px;
+    color: #F3F3F3;
+    right: 371px;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 35px;
+}
