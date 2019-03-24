@@ -1,0 +1,131 @@
+.business-parent {
+    position: relative;
+    height: 1000px;
+    width: 500px;
+    margin-top: 15%;
+    left: 25%;
+    margin-left: -50px;
+}
+
+.business__heading__business {
+    font-family: Syncopate;
+    font-weight: 300;
+    font-size: 70px;
+    z-index: 3;
+    right: -297px;
+    top: 48px;
+    position: absolute;
+}
+
+.business__heading__management {
+    font-family: Syncopate;
+    font-weight: normal;
+    font-size: 70px;
+    z-index: 3;
+    left: 502px;
+    border-bottom: 3px solid black;
+    text-transform: uppercase;
+    top: 134px;
+    position: absolute;
+}
+
+.business__img {
+    filter: grayscale(100%);
+    position: absolute;
+    top: 10px;
+}
+
+.business__button {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    color: white;
+    border: none;
+    -webkit-text-stroke: none;
+    top: 343px;
+    right: 400px;
+    font-size: 80px;
+    background-color: grey;
+    }
+
+    .courses {
+        position: absolute;
+    margin-left: 20px;
+    display: inline-block;
+    top: 382px;
+    left: 101px;
+        right: 0px;
+    }
+
+    .business__body {
+        width: 400px;
+    height: 300px;
+    font-family: poppins;
+    position: absolute;
+    top: 274px;
+    left: 560px;
+    color: grey;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 35px;
+    }
+
+    li.business__body {
+        display: block;
+        margin-top: 10px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .business-parent {
+            position: relative;
+            height: 675px;
+        width: 350px;
+        margin-top: 15%;
+        left: 10%;
+        margin-left: 0px;
+        }
+
+        .business__heading__business {
+            font-size: 20px;
+            right: 0px;
+            top: 246px;
+            left: 34px;
+        }
+        
+        .business__heading__management {
+            font-size: 20px;
+            left: 71px;
+            top: 275px;
+        }
+        
+        .business__img {
+            height: 200px;
+            width: 300px;
+            top: 10px;
+        }
+        
+        .business__button {
+            height: 50px;
+            width: 50px;
+            top: 182px;
+            right: 308px;
+            font-size: 40px;
+            }
+        
+            .courses {
+                display: none;
+            }
+        
+            .business__body {
+                width: 325px;
+                height: 150px;
+                top: 335px;
+                left: -6px;
+                font-size: 10px;
+                letter-spacing: 1px;
+                line-height: 16px;
+            }
+        
+    }
