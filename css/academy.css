@@ -89,3 +89,68 @@ p.academy__body {
     font-weight: 300;
     line-height: 35px;
 }
+
+@media screen and (max-width: 480px) {
+    .academy__img1,
+    .academy__img2,
+    .academy__img3 {
+        height: 140px;
+        width: 125px;
+    }
+
+    .academy__img1 {
+        right: 7%;
+        top: 51px;
+    }
+
+    .academy__img2 {
+        top: -11%;
+        right: 39%;
+    }
+
+    .academy__img3 {
+        top: 15%;
+        right: 61%;
+    }
+
+    h1.academy__stylist {
+        font-size: 20px;
+        top: 243px;
+        left: 57px;
+    }
+
+    h1.academy__instruction {
+        font-size: 20px;
+        top: 241px;
+        left: -147px;
+    }
+
+    .academy-parent {
+        position: relative;
+        height: 500px;
+        width: 350px;
+        margin-top: 15%;
+        left: 50%;
+        margin-left: -166px;
+    }
+
+    .academy__button {
+    height: 50px;
+    width: 50px;
+    top: 166px;
+    right: 21px;
+    font-size: 40px;
+    background-color: white;
+    }
+
+    p.academy__body {
+    width: 325px;
+    height: 150px;
+    top: 326px;
+    left: 10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    }
+
+}
