@@ -1,11 +1,11 @@
 
 .business-parent {
     position: relative;
-    height: 1000px;
-    width: 500px;
-    margin-top: 15%;
-    left: 25%;
-    margin-left: -50px;
+    height: 100vh;
+    width: auto;
+    margin-top: 0;
+    left: 0;
+    margin-left: 0;
 }
 
 .business__heading__business {
@@ -13,8 +13,8 @@
     font-weight: 300;
     font-size: 70px;
     z-index: 3;
-    right: -297px;
-    top: 48px;
+    left: 48%;
+    top: 30%;
     position: absolute;
 }
 
@@ -26,14 +26,18 @@
     left: 502px;
     border-bottom: 3px solid black;
     text-transform: uppercase;
-    top: 134px;
+    top: 39%;
+    left: 50%;
     position: absolute;
 }
 
 
 .business__img {
     position: absolute;
-    top: 10px;
+    top: 20%;
+    left: 22%;
+    height: 500px;
+    width: 700px;
 }
 
 .business__button {
@@ -44,19 +48,18 @@
     border: none;
     text-align: center;
     -webkit-text-stroke: none;
-    top: 334px;
-    right: 400px;
+    top: 61%;
+    right: 75%;
     font-size: 62px;
     background-color: grey;
     }
 
     .courses {
         position: absolute;
-    margin-left: 20px;
     display: inline-block;
-    top: 382px;
-    left: 101px;
-        right: 0px;
+    top: 68%;
+    right: 69%;
+    
     }
 
     .business__body {
@@ -64,8 +67,8 @@
     height: 300px;
     font-family: poppins;
     position: absolute;
-    top: 274px;
-    left: 560px;
+    top: 50%;
+    left: 55%;
     color: grey;
     font-size: 14px;
     font-weight: normal;
