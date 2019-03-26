@@ -1,3 +1,4 @@
+
 .business-parent {
     position: relative;
     height: 1000px;
@@ -29,6 +30,7 @@
     position: absolute;
 }
 
+
 .business__img {
     position: absolute;
     top: 10px;
@@ -42,9 +44,9 @@
     border: none;
     text-align: center;
     -webkit-text-stroke: none;
-    top: 343px;
+    top: 334px;
     right: 400px;
-    font-size: 80px;
+    font-size: 62px;
     background-color: grey;
     }
 

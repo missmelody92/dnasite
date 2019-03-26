@@ -1,0 +1,41 @@
+.awards {
+
+}
+
+.awards__parent {
+    height: auto;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 40%;
+}
+
+.awards__img-1,
+.awards__img-2,
+.awards__img-3,
+.awards__img-4 {
+
+    height: 115px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: -webkit-inline-box;
+}
+
+.awards__img-1 {
+    width: 280px;
+}
+
+.awards__img-2 {
+    width: 220px;
+}
+
+.awards__img-3 {
+    width: 230px;
+}
+
+.awards__img-4 {
+    width: 230px;
+}
