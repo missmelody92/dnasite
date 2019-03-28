@@ -3,154 +3,110 @@
 }
 
 .academy-parent {
-    position: relative;
-    height: 1000px;
-    width: 500px;
-    margin-top: 30%;
-    left: 50%;
-    margin-left: -170px;
+    height: 100vh;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    display: grid;
+    width: auto;
+}
+
+.academy__shape {
+    background-color: #f8f4f4;
+    grid-row: 1;
+    grid-column: 1/ span 10;
+    grid-row: 1/ span 2;
 }
 
 h1.academy__stylist {
-    font-size: 60px;
+    font-size: 3vw;
     font-family: Syncopate;
     color: #F3F3F3;
     text-transform: uppercase;
     font-weight: 300;
-    top: 309px;
-    left: -358px;
-    margin-bottom: 5px;
-    position: absolute;
+    padding-top: 10%;
+    grid-column: 3/ span 2;
+    grid-row: 4/ span 1;
 }
 
 h1.academy__instruction {
-    font-size: 60px;
+    font-size: 3vw;
     font-family: Syncopate;
     color: #F3F3F3;
     text-transform: uppercase;
-    border-bottom: 3px solid #F3F3F3;
     font-weight: 200;
-    top: 355px;
-    left: -495px;
+    grid-row: 5;
+    margin-left: 27%;
+    grid-column: 3/ span 4;
+    /* top: 34%; */
+    /* left: 18%; */
     z-index: 4;
-    margin-left: 243px;
-    margin-top: 30px;
-    position: absolute;
+    /* margin-left: 243px; */
+    /* margin-top: 30px; */
+    /* position: absolute; */
 }
 
 .academy__img1 {
-    height: 411px;
-    right: -3%;
-    top: 260px;
-    z-index: 3;
-    width: 330px;
-    position: absolute;
+    height: 19vw;
+    grid-column: 6 / span 4;
+    grid-row: 4 /span 4;
+    width: auto;
+    
 }
 
 .academy__img2 {
-    height: 383px;
-    width: 340px;
-    top: -11%;
-    right: -26%;
-    z-index: 1;
-    position: absolute;
+    grid-column: 7 /span 2;
+    grid-row: 2/ span 4;
+    height: 15vw;
+    width: auto;
+   
 }
 
 .academy__img3 {
-    height: 346px;
-    width: 290px;
-    top: 15%;
-    right: -77%;
-    position: absolute;
+    height: 15vw;
+    /* right: 51%; */
+    /* top: 16%; */
+    width: auto;
+    /* position: absolute; */
+    grid-column: 8 / span 2;
+    grid-row: 3 / span 4;
+   
 }
 
 .academy__button {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: 445px;
-    right: -384px;
+    height: 3vw;
+    width: 3vw;
+    border: none;
+    /* top: 45%; */
+    /* right: 30%; */
+    grid-column: 9;
+    grid-row: 5/ span 2;
     z-index: 3;
     text-align: center;
-    font-size: 81px;
+    font-size: 3vw;
 }
 
 p.academy__body {
-    width: 500px;
-    height: 300px;
+    height: auto;
     font-family: poppins;
-    position: absolute;
-    top: 530px;
+    /* position: absolute; */
+    /* top: 50%; */
     color: #F3F3F3;
-    right: 371px;
-    font-size: 14px;
+    /* left: 14%; */
+    text-align: justify;
+    grid-row: 6 / span 2;
+    grid-column: 3/ span 2;
+    font-size: 0.60vw;
     font-weight: normal;
     letter-spacing: 1px;
     font-weight: 300;
-    line-height: 35px;
+    line-height: 300%;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+    
+  }
+
 @media screen and (max-width: 480px) {
-    .academy__img1,
-    .academy__img2,
-    .academy__img3 {
-        height: 140px;
-        width: 125px;
-    }
-
-    .academy__img1 {
-        right: 7%;
-        top: 51px;
-    }
-
-    .academy__img2 {
-        top: -11%;
-        right: 39%;
-    }
-
-    .academy__img3 {
-        top: 15%;
-        right: 61%;
-    }
-
-    h1.academy__stylist {
-        font-size: 20px;
-        top: 243px;
-        left: 57px;
-    }
-
-    h1.academy__instruction {
-        font-size: 20px;
-        top: 241px;
-        left: -147px;
-    }
-
-    .academy-parent {
-        position: relative;
-        height: 520px;
-        width: 350px;
-        margin-top: 15%;
-        left: 50%;
-        margin-left: -166px;
-    }
-
-    .academy__button {
-    height: 50px;
-    width: 50px;
-    top: 166px;
-    right: 21px;
-    font-size: 40px;
-    background-color: white;
-    }
-
-    p.academy__body {
-    width: 325px;
-    height: 150px;
-    top: 326px;
-    left: 10px;
-    font-size: 10px;
-    letter-spacing: 1px;
-    line-height: 16px;
-    }
-
 }

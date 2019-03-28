@@ -1,81 +1,70 @@
 .modern {
     background-color: #292929;
-    padding-bottom: 10%;
 }
 
 .modern__parent {
-        position: relative;
-        height: 100vh;
-        width: auto;
-        margin-top: 0%;
-        margin-left: 0%;
+    height: 100vh;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    display: grid;
+    width: auto;
 }
 
 .modern__title1 {
-font-family: Syncopate;
-position: absolute;
-font-style: normal;
-top: 22%;
-right: 57%;
-font-weight: normal;
-text-transform: uppercase;
-margin-left: 5%;
-font-size: 67px;
-line-height: 83px;
-letter-spacing: -2.2px;
-
-color: #F3F3F3;
+    font-size: 3vw;
+    font-family: Syncopate;
+    color: #F3F3F3;
+    text-transform: uppercase;
+    padding-left: 31%;
+    font-weight: 300;
+    /* display: inline-block; */
+    padding-top: 6%;
+    grid-column: 2/ span 3;
+    grid-row: 4/ span 1;
+    color: #F3F3F3;
 }
 .modern__title2 {
+    font-size: 3vw;
     font-family: Syncopate;
+    color: #F3F3F3;
     text-transform: uppercase;
-    top: 31%;
-    left: 28%;
-    position: absolute;
-font-style: normal;
-font-weight: normal;
-font-size: 67px;
-line-height: 83px;
-letter-spacing: -2.2px;
-z-index: 3;
-
-color: #F3F3F3;
+    z-index: 1;
+    font-weight: 300;
+    padding-left: 16%;
+    grid-column: 3/ span 3;
+    grid-row: 5/ span 1;
+    color: #F3F3F3;
 }
 
-.svg-tl-line {
-    position: absolute;
-    top: 41%;
-    right: 50%;
-}
+
 
 
 .modern__p {
-    width: 500px;
-    height: 654.53px;
-    margin-top: -2%;
-    font-family: Poppins;
-    font-style: normal;
-    position: absolute;
-    top: 59%;
-    right: 54%;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 35px;
-    letter-spacing: 1px;
+    height: auto;
+    font-family: poppins;
+    /* position: absolute; */
+    /* top: 50%; */
     color: #F3F3F3;
+    /* left: 14%; */
+    text-align: justify;
+    grid-row: 6 / span 2;
+    grid-column: 3/ span 2;
+    font-size: 0.60vw;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 300%;
 }
 .modern__img1 {
-    width: 364px;
-    position: absolute;
-    top: 22%;
-    left: 50%;
-    height: 501px;
-    z-index: 2;
+    height: 19vw;
+    grid-column: 6 / span 4;
+    grid-row: 4 /span 4;
+    width: auto;
+    filter: grayscale()
 }
 .modern__img2 {
-    width: 271px;
-    height: 372.67px;
-    position: absolute;
-    top: 53%;
-    left: 63%;
+    height: 19vw;
+    grid-column: 7 / span 4;
+    grid-row: 6 /span 4;
+    width: auto;
 }

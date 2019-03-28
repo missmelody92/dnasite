@@ -23,8 +23,8 @@
 
 <body>
 <div class="hero__box">
-    <header class="hero">
-        <a class="hero__logo" href="#" data-aos="fade-right"
+    <header class="hero"><a name="#Home"></a> 
+        <a class="hero__logo" href="#Home" data-aos="fade-right"
         data-aos-easing="linear"
         data-aos-duration="1500">
             The Dna<br> Way
@@ -34,11 +34,11 @@
 <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <li><a href="">Profile</a></li>
-            <li><a href="">Instruction</a></li>
-            <li><a href="">Management Traning</a></li>
-            <li><a href="">Consultancy</a></li>
-            <li><a href="">Enquire</a></li>
+            <li><a href="#Profile">Profile</a></li>
+            <li><a href="#Academy">Instruction</a></li>
+            <li><a href="#Business">Management Traning</a></li>
+            <li><a href="#Consultancy">Consultancy</a></li>
+            <li><a href="#Footer">Enquire</a></li>
     </div>
 </div>
 <div class="openbutton" onclick="openNav()">
@@ -49,21 +49,11 @@
 
 
 <div class="hero__nav">
-    <li data-aos="fade-down"
-    data-aos-easing="linear"
-    data-aos-duration="1500"><a href="">Profile</a></li>
-    <li data-aos="fade-down"
-    data-aos-easing="linear"
-    data-aos-duration="1500"><a href="">Instruction</a></li>
-    <li data-aos="fade-down"
-    data-aos-easing="linear"
-    data-aos-duration="1500"><a href="">Management Traning</a></li>
-    <li data-aos="fade-down"
-    data-aos-easing="linear"
-    data-aos-duration="1500"><a href="">Consultancy</a></li>
-    <li data-aos="fade-down"
-    data-aos-easing="linear"
-    data-aos-duration="1500"><a href="">Enquire</a></li>
+    <li><a href="#Profile">Profile</a></li>
+    <li><a href="#Academy">Instruction</a></li>
+    <li><a href="#Business">Management Traning</a></li>
+    <li><a href="#Consultancy">Consultancy</a></li>
+    <li><a href="#Footer">Enquire</a></li>
 </div>
  
 
@@ -73,21 +63,22 @@
             <span class="hero__ul--innovate"><li>Innovate</li></span>
                 <li>Emulate</li>
             </ul>
-        <div class="hero__triangle"></div>
+        <div class="hero__triangle" ></div>
     </header>
 </div>
-
+<div class="container">
     <main>
         <section class="about">
 
-            <div class="img-parent">
-                    <div class="about__title ">What<br>We Do</div>
+            <div class="about-parent"><a name="Profile"></a>
+                    <div class="about__what">What</div>
+                    <div class="about__wedo">We Do</div>
                     <img class="about__image1" data-aos="fade-left"
                     data-aos-easing="linear"
-                    data-aos-duration="1500" src="img/p-holder1.jpg" alt="hjawards">
+                    data-aos-duration="1500" src="img/p-holder1.png" alt="hjawards">
             <img class="about__image2" data-aos="fade-left"
             data-aos-easing="linear"
-            data-aos-duration="1500" src="img/p-holder2.jpg" alt="hjawards">
+            data-aos-duration="1500" src="img/p-holder2.png" alt="hjawards">
             <p class="about__body" data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500">Award Winning Hair Professionals, Dale Herne and Angelo Vallillo, are the latest innovators in the industry. The pair have taught their high in demand courses all over the world including Europe and Asia. Their beliefs are, in order to be the best, it is a must you are up to date with the latest hair techniques.
@@ -96,26 +87,28 @@
 </div>
             
         </section>
-        <section class="academy">
-            <div class="academy-parent">
+        <section class="academy"><a name="Academy"></a> 
+        <div class="academy-parent">
+                <div class="academy__shape"></div>
             <h1 class="academy__stylist">Stylist</h1>
             <h1 class="academy__instruction">Instruction</h1>
             <p class="academy__body">You will be taught by industry professionals Angelo and Dale. All training carried out will be in small groups. “Angelo is a Passionate and Motivating educator, fresh with ideas and Enthusiasm. His unparalleled technical skill is married with a down-to-earth approach that ensures his seminars are Inspirational and Enlightening, yet participants never feel out of their depth.</p>
-            <img class="academy__img1" src="img/academy__img1.jpg" alt="Eastern British Hairdressing Awards" data-aos="fade-left"
+           <img class="academy__img1" src="img/academy__img1.png" alt="Eastern British Hairdressing Awards" data-aos="fade-left"
             data-aos-easing="linear"
             data-aos-duration="1500">
-            <img class="academy__img2" src="img/academy__img2.jpg" alt="Eastern British Hairdressing Awards" data-aos="fade-down"
+            <img class="academy__img2" src="img/academy__img2.png" alt="Eastern British Hairdressing Awards" data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500">
-            <img class="academy__img3" src="img/academy__img3.jpg" alt="Eastern British Hairdressing Awards" data-aos="fade-right"
+            <img class="academy__img3" src="img/academy__img3.png" alt="Eastern British Hairdressing Awards" data-aos="fade-right"
             data-aos-easing="linear"
             data-aos-duration="1500">
             <button class="academy__button" data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="1500">&rarr;</button>
+            data-aos-duration="1500"><img src="https://img.icons8.com/metro/52/000000/chevron-right.png"></button>
+        </div>
         </section>
-    </div>
-        <section class="business">
+    
+        <section class="business"><a name="Business"></a> 
                 <div class="business-parent">
                 <div data-aos="fade-left"
                 data-aos-easing="linear"
@@ -123,11 +116,10 @@
                 <div data-aos="fade-left"
                 data-aos-easing="linear"
                 data-aos-duration="1600" class="business__heading__management">Management</div>
-                <img class="business__img" src="img/business-pholder.jpeg" alt="dna hairdresser nottingham">
+                <img class="business__img" src="img/business-pholder.png" alt="dna hairdresser nottingham">
                 <button class="business__button" data-aos="fade-left"
                 data-aos-easing="linear"
-                data-aos-duration="1500">&#8592;</button>
-                <span class="courses" a href="#">View courses</a></span>
+                data-aos-duration="1500"><img src="https://img.icons8.com/metro/52/000000/chevron-left.png"></button>
                 <div class="business__body">We will help you grow your business The DNA Way. Times are changing, our industry has changed, we need to see ourselves as more than just hairdressers and progress. Let us help you become the new way of hairdressing. 
                 We can help you:<br><br><ul>
                     <ol> Increase Weekly Takings & Profitability</ol>
@@ -149,33 +141,36 @@
             <div data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500" class="innovate-line-1">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tr-line">
+            <svg class="svg-innovate-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tr-line">
                 <line class="linetop" x1="95%"  y1="0" x2="95%"   y2="600px" style="stroke:#5e563e;"/></svg>
                 <div class="ambition__innovate">Innovate</div>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tr-line">
+                <svg class="svg-innovate-2"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tr-line">
                     <line class="linetop" x1="95%"  y1="0" x2="95%"   y2="600px" style="stroke:#5e563e;"/></svg>
-            </div>
+        
+        </div>
+           
             <div data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500" class="educate-line-1">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tr-line">
+            <svg class="svg-educate-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tr-line">
                 <line class="linetop" x1="95%"  y1="0" x2="95%"   y2="600px" style="stroke:#5e563e;"/></svg>
-                <div class="ambition__innovate">Educate</div>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tr-line">
+                <div class="ambition__educate">Educate</div>
+                <svg class="svg-educate-2"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tr-line">
                     <line class="linetop" x1="95%"  y1="0" x2="95%"   y2="600px" style="stroke:#5e563e;"/></svg>
-            </div>
+        
+        </div>  
             <div data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500" class="emulate-line-1">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tr-line">
+            <svg class="svg-emulate-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tr-line">
                 <line class="linetop" x1="95%"  y1="0" x2="95%"   y2="600px" style="stroke:#5e563e;"/></svg>
                 <div class="ambition__innovate">Emulate</div>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tr-line">
+                <svg class="svg-emulate-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tr-line">
                     <line class="linetop" x1="95%"  y1="0" x2="95%"   y2="600px" style="stroke:#5e563e;"/></svg>
             </div>
-    </div>
+    </div> 
         </section>
-        <section class="modern">
+        <section class="modern"><a name="Consultancy"></a>
         <div class="modern__parent">
             <h1 class="modern__title1" data-aos="fade-left"
             data-aos-easing="linear"
@@ -183,12 +178,10 @@
             <h1 class="modern__title2" data-aos="fade-left"
             data-aos-easing="linear"
             data-aos-duration="1500">Consultancy</h1>
-            <svg xmlns="http://www.w3.org/2000/svg" data-aos="fade-left" data-aos-easing="linear"
-            data-aos-duration="1500" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-tl-line">
-                <line class="linetop" x1="00" y1="10" x2="700px" y2="10"  style="stroke:white;"/></svg>
+
             <p class="modern__p">You will be taught by industry professionals Angelo and Dale. All training carried out will be in small groups. “Angelo is a Passionate and Motivating educator, fresh with ideas and Enthusiasm. His unparalleled technical skill is married with a down-to-earth approach that ensures his seminars are Inspirational and Enlightening, yet participants never feel out of their depth.</p>
-            <img class="modern__img1" src="img/modern-01.jpeg" alt="modernbusiness">
-            <img class="modern__img2" src="img/modern-02.jpeg" alt="modernbusiness" data-aos="fade-down"
+            <img class="modern__img1" src="img/modern-01.png" alt="modernbusiness">
+            <img class="modern__img2" src="img/modern-02.png" alt="modernbusiness" data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500">
         </div>
@@ -204,7 +197,7 @@
         </section>
     </main>
 </div>
-    <footer class="footer">
+    <footer class="footer"><a name="Footer"></a>
        <div class="footer__parent">
             <div class="footer__left">
                 <p class="let__us">Let us help you grow your business</p>
@@ -215,14 +208,7 @@
                      hello@thednaway.co.uk<br>
                       0115 998 2980</div>
             </div>
-                    <div class="input">
-                            <input type="text" name="name" placeholder="Name"/>
-                            <input type="email" name="name" placeholder="Email"/>
-                            <input type="password" name="name" placeholder="Password"/>
-                            
-                            <input type="submit" />
-                          </div>
-            </div>
+                    
     </footer>
     
     <script>
@@ -243,5 +229,6 @@ AOS.init();
             </script>
  
 </body>
+</div>
 
 </html>

@@ -1,16 +1,14 @@
 .footer {
-      
+      align-self: flex-end;
 }
 .footer__parent {
-    display:flex;
-    height: 100vh;
+    height: 20vh;
     width: auto;
+    display: flex;
 }
 .footer__left {
-    justify-content:left;
-    align-items:center;
-    padding-right: 5%;
-    margin-left: auto;
+  align-self: flex-end;
+  margin-bottom: 5%;
 }
 .let__us {
     
@@ -30,36 +28,3 @@
     
 }
 
-
-
-
-
-div.input{
-    justify-content: right;
-    align-items:center;
-    margin-right: auto;
-    padding-left: 5%;
-  }
-  input{
-    display: block;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    margin:10px;
-    box-sizing:border-box;
-    border:1px solid rgba(0,0,0,0.05) ;
-    padding:10px;
-    width:200px;
-    border-radius:4px;
-    font-size:15px;
-    box-shadow: 0px 3px 10px 3px rgba(0,0,0,0.08);
-    transition: box-shadow 0.4s ease-in-out;
-  }
-  input:focus{
-    box-shadow: 0px 3px 20px 6px rgba(0,0,0,0.12);
-  }
-  input[type="submit"]{
-    background-color: black;
-    color:#fff;
-    transition: box-shadow 0.4s ease-in-out;
-    cursor:pointer;
-    
-  }

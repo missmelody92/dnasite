@@ -2,63 +2,70 @@
     background-color: #F8F4F4;
 }
 
-.about__title {
+
+
+.about__what {
+    font-family: Syncopate;
+    grid-column: 6/ span 2;
+    padding-top: 13%;
+    padding-left: 15%;
+    grid-row: 6;
+    font-weight: normal;
+    font-size: 3vw;
+    z-index: 3;
+    text-transform: uppercase;
+  
+}
+
+.about__wedo {
     font-family: Syncopate;
     font-weight: normal;
-    font-size: 70px;
-    z-index: 3;
-    left: -86px;
-    border-bottom: 3px solid black;
-    top: 50px;
-    position: absolute;
-   
+    grid-column: 7/ span2;
+    grid-row: 7;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+
+.about-parent {
+    height: 100vh;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    display: grid;
+    width: auto;
 }
 
 
-.img-parent {
-    position: relative;
-    height: 500px;
-    width: 500px;
-    margin-top: 9%;
-    left: 50%;
-    margin-left: -50px;
-}
-
-.about__image1,
-.about__image2 {
-    filter: grayscale(100%);
-    position: absolute;
-    height: 430px;
-    width: 352px;
-}
 
 .about__image1 {
-    right: 100%;
+    height: 19vw;
+    width: auto;
+    grid-column: 5/span 2;
+    grid-row: 6/span 2;
 }
 
 .about__image2 {
-    top: 252px;
-    right: 151%;
+    height: 19vw;
+    grid-column: 4/span 2;
+    grid-row: 4/span 2;
+    width: auto;
 }
 
 
 .about__body {
-    width: 500px;
-    height: 300px;
-    position: absolute;
-    padding-left: 74px;
-    top: 267px;
-    font-size: 14px;
-    letter-spacing: 1px;
+    
+    font-size: 0.60vw;
+    grid-row: 8/ span 2;
+    grid-column: 7/ span 2;
+    /* letter-spacing: 1px; */
     font-weight: 300;
-    line-height: 35px;
+    line-height: 300%;
 }
 
 @media screen and (max-width: 480px) {
     .about__image1,
     .about__image2 {
         height: 140px;
-    width: 125px;
+    width: auto;
 }
 
 .about__title {
@@ -69,27 +76,18 @@
 }
 
 .about__body {
-    width: 330px;
-    height: 200px;
-    position: absolute;
-    padding-top: 60px;
-    padding-left: 16px;
+    
     font-size: 10px;
     letter-spacing: 0px;
     line-height: 13px;
 }
 
 .about__image1 {
-    right: 0%;
-    margin-left: 0px;
-    top: 10px;
-    left: 10px;
+    
 }
 
 .about__image2 {
-    top: 138px;
-    right: 0px;
-    left: 90px;
+    
 }
 
 .img-parent {

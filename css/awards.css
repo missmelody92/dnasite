@@ -1,14 +1,15 @@
 .awards {
-
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .awards__parent {
-    height: auto;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
-    width: 40%;
+    height: 30vh;
+    width: auto;
+    display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
 }
 
 .awards__img-1,
@@ -16,26 +17,9 @@
 .awards__img-3,
 .awards__img-4 {
 
-    height: 115px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    display: -webkit-inline-box;
+    height: 5vw;
+    margin: 5%;
+    width: auto;
+    
 }
 
-.awards__img-1 {
-    width: 280px;
-}
-
-.awards__img-2 {
-    width: 220px;
-}
-
-.awards__img-3 {
-    width: 230px;
-}
-
-.awards__img-4 {
-    width: 230px;
-}
