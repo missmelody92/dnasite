@@ -1,0 +1,103 @@
+.courses__parent {
+    height: 100vh;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    display: grid;
+    width: auto;
+}
+
+.hero__logo {
+    color: white;
+    font-family: Syncopate;
+    line-height: 16px;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.27em;
+    padding-top: 10px;
+    position: fixed;
+    border: 2px solid #F6F2F2;
+    box-sizing: border-box;
+    mix-blend-mode: exclusion;
+    background-color: transparent;
+    text-transform: uppercase;
+    width: 72px;
+    height: 71px;
+    left: 61px;
+    top: 58px;
+}
+
+.courses__shape-1 {
+    background-color: #F8F4F4;
+}
+
+.header-01 {
+    font-family: Syncopate;
+font-style: normal;
+font-weight: normal;
+font-size: 2vw;
+line-height: 2vw;
+letter-spacing: 5%;
+
+color: #4F4F4F;
+
+}
+
+.cutting {
+    font-family: Syncopate;
+font-style: normal;
+font-weight: normal;
+font-size: 4vw;
+line-height: 4vw;
+letter-spacing: 5%;
+
+color: #4F4F4F;
+}
+
+.courses__p {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 1vw;
+line-height: 1vw;
+letter-spacing: 5%;
+background-color: #F8F4F4;
+color: #0D0C0C;
+}
+
+.courses__image {
+
+}
+
+.button__left {
+    background: white; 
+    height: 8vw;
+    width: auto;
+}
+
+.button__right {
+    background: white;
+    height: 8vw;
+    width: auto;
+}
+
+.courses__shape-2 {
+    background: linear-gradient(43.99deg, #292D31 12.1%, #323C48 150.49%);
+}
+
+.courses__time {
+    height: 4vw;
+    width: auto;
+    color: #F3F3F3;
+}
+
+.courses__price {
+    height: 4vw;
+    width: auto;
+    color: #F3F3F3;
+}
+
+.courses__tutor {
+    height: 4vw;
+    width: auto;
+    color: #F3F3F3;
+}

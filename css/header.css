@@ -67,8 +67,8 @@
     font-family: 'Syncopate';
     font-style: normal;
     font-weight: bold;
-    line-height: 108px;
-    font-size: 106px;
+    line-height: 4vw;
+    font-size: 4vw;
     text-align: center;
     letter-spacing: -2.2px;
     color: #FFFFFF;
@@ -100,7 +100,7 @@
     font-style: normal;
     font-weight: 200px;
     line-height: 87px;
-    font-size: 16px;
+    font-size: 1vw;
     text-align: center;
     letter-spacing: 0.30em;
     position: absolute;
@@ -160,6 +160,11 @@
 
   }
 
+  @media screen and (max-width: 768px) {
+      .hero__triangle {
+          display: none;
+      }
+  }
 
 @media screen and (max-width: 480px)  {
     .hero__logo {

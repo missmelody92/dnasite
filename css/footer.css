@@ -1,30 +1,101 @@
 .footer {
       align-self: flex-end;
+      background-color:  #292929;
 }
 .footer__parent {
-    height: 20vh;
+    height: 50vh;
     width: auto;
     display: flex;
 }
 .footer__left {
-  align-self: flex-end;
-  margin-bottom: 5%;
-}
-.let__us {
-    
-}
-.convo {
-    
-}
-.social-1 {
-    width: 100px;
-    height: 100px;
-}
-.social-2 {
-    width: 100px;
-    height: 100px;
-}
-.address {
-    
+    width: 55%;
+    height: auto;
+    margin-top: 5%;
+    padding-left: 21%;
+
 }
 
+.footer__form {
+    width: 50%;
+    margin-top: 10%;
+    height: auto;
+}
+.let__us {
+    color: #F3F3F3;
+    padding-bottom: 5%;
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+.convo {
+    color: #F3F3F3;
+    padding-bottom: 5%;
+    font-size: 2vw;
+    font-family: Syncopate;
+}
+.social-1 {
+    width: 3vw;
+    margin-right: 1%;
+    padding: 0%;
+    padding-bottom: 5%;
+    height: auto;
+}
+.social-2 {
+    width: 3vw;
+    height: auto;
+    padding-bottom: 5%;
+    margin-left: 1%;
+}
+.address {
+    color: #F3F3F3;
+    line-height: 207%;
+    font-size: 0.90vw;
+}
+
+.contact-form {
+    position: relative;
+}
+
+.form__name {
+    background: transparent;
+    width: 30%;
+    margin-right: 1%;
+    text-transform: uppercase;
+    font-size: 1vw;
+    padding: 2%;
+
+}
+
+.form__email {
+    background: transparent;
+    width: 31%;
+    text-transform: uppercase;
+    font-size: 1vw;
+    padding: 2%;
+
+}
+
+.form__text {
+    background: transparent;
+    display: block;
+    font-size: 1vw;
+    width: 54%;
+    margin-top: 1%;
+    text-transform: uppercase;
+    padding: 8%;
+    border: 2px solid white;
+  
+}
+
+.form__button {
+    background: white;
+    color: black;
+    top: 52%;
+    left: 48%;
+    position: absolute;
+    font-size: 1vw;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    width: 21%;
+    padding: 2%;
+
+}
