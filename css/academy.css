@@ -75,6 +75,7 @@ h1.academy__instruction {
 .button__academy {
     background: white;
     grid-column: 6;
+    padding: 10px;
     grid-row: 6;
     z-index: 1;
     height: 5vw;
@@ -98,9 +99,21 @@ p.academy__body {
     line-height: 300%;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  
+
+
+@media screen and (max-width: 768px) {
+    h1.academy__stylist {
+        font-size: 5vw;
+        font-family: Syncopate;
+        color: #F3F3F3;
+        text-transform: uppercase;
+        font-weight: 300;
+        padding-top: 10%;
+        grid-column: 2/ span 2;
+        grid-row: 4/ span 1;
+    }
+
+
     
   }
 

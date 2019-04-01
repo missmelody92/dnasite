@@ -164,6 +164,8 @@
       .hero__triangle {
           display: none;
       }
+
+    
   }
 
 @media screen and (max-width: 480px)  {
