@@ -170,52 +170,7 @@
 
 @media screen and (max-width: 768px) {
   
-    .svg-educate-2 {
-        position: absolute;
-        width: 3px;
-        margin-bottom: 5%;
-        top: -139%;
-    }
-
-    .ambition__educate {
-        font-family: Poppins;
-        text-transform: uppercase;
-        top: 50%;
-        position: absolute;
-        font-style: normal;
-        width: 1px;
-        font-weight: 300;
-        margin-top: 3%;
-        padding-top: -4%;
-        font-size: 0.75vw;
-        letter-spacing: 3px;
-        color: #000000;
-        transform: rotate(-90deg);
-    }
-
-    .svg-educate-1 {
-        position: absolute;
-        stroke: 4px;
-        width: 3px;
-        top: 86%;
-    }
-    .ambition__parent {
-        height: 50vh;
-    }
-
-    .svg-emulate-2 {
-        position: absolute;
-        width: 3px;
-        margin-bottom: 5%;
-        top: -56%;
-    }
-
-    .svg-innovate-2 {
-        position: absolute;
-        width: 3px;
-        /* padding-bottom: 31%; */
-        margin-bottom: 5%;
-        display: block;
-        top: -54%;
+    .ambition {
+        display: none;
     }
 }
