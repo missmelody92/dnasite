@@ -78,7 +78,45 @@
 
 @media screen and (max-width: 480px) {
     .about-parent {
-        height: 30vh;
+        height: 32vh;
         width: auto;
     }
+
+    .about__body {
+        font-size: 1.5vw;
+        grid-row: 5/ span 2;
+        grid-column: 5/ span 4;
+        /* letter-spacing: 1px; */
+        font-weight: 300;
+        line-height: 300%;
+    }
+
+    .about__what {
+        grid-column: 4/ span 2;
+        padding-top: 13%;
+        padding-left: 15%;
+        grid-row: 3;
+        font-size: 3vw;
+    }
+
+    .about__wedo {
+        grid-column: 5/ span2;
+        grid-row: 4;
+        font-size: 3vw;
+    }
+
+    .about__image2 {
+        height: 19vw;
+        grid-column: 2/span 2;
+        grid-row: 4/span 2;
+        width: auto;
+    }
+
+    .about__image1 {
+        height: 19vw;
+        width: auto;
+        grid-column: 3/span 2;
+        grid-row: 6/span 2;
+    }
+}
 }

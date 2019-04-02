@@ -95,7 +95,7 @@
 @media screen and (max-width: 480px)  { 
 
 .modern__parent {
-    height: 30vh;
+    height: 31vh;
     padding-bottom: 10%;
 }
 .modern__p {
@@ -107,12 +107,28 @@
     /* left: 14%; */
     text-align: justify;
     grid-row: 6 / span 3;
-    grid-column: 2/ span 3;
-    font-size: 1vw;
+    grid-column: 2/ span 5;
+    font-size: 1.5vw;
     font-weight: normal;
     letter-spacing: 1px;
     font-weight: 300;
     line-height: 300%;
+}
+
+.modern__img1 {
+    height: 19vw;
+    margin-left: 5%;
+    grid-column: 7 / span 4;
+    grid-row: 4 /span 4;
+    width: auto;
+    filter: grayscale();
+}
+
+.modern__img2 {
+    height: 19vw;
+    grid-column: 8 / span 4;
+    grid-row: 6 /span 4;
+    width: auto;
 }
 }
 

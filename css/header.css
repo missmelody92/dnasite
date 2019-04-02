@@ -282,7 +282,7 @@
         background: black;
         position: fixed;
         overflow: hidden;
-        width: 425px;
+        width: 100%;
         font-size: 40px;
         /* margin-left: 10px; */
     }
@@ -298,13 +298,6 @@
     
     .hero__nav {
         display: none;
-    }
-
-    .openbutton {
-        color: white;
-        overflow: hidden;
-        font-size: 40px;
-        margin-left: 10px;
     }
 
     .block1,

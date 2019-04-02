@@ -102,21 +102,21 @@
 
     @media screen and (max-width: 480px) {
         .business-parent {
-            height: 30vh;
+            height: 45vh;
             margin-bottom: 5%;
 
         }
 
         .business__heading__business {
             padding-left: 13%;
-            padding-top: 10%;
-            font-size: 3vw;
-            font-family: Syncopate;
-            color: ;
-            text-transform: uppercase;
-            font-weight: 300;
-            grid-column: 6/ span 1;
-            grid-row: 2/ span 1;
+    padding-top: 27%;
+    font-size: 3vw;
+    font-family: Syncopate;
+    color: ;
+    text-transform: uppercase;
+    font-weight: 300;
+    grid-column: 6/ span 1;
+    grid-row: 2/ span 1;
         }
 
         .business__heading__management {
@@ -142,16 +142,16 @@
         
         .business__body {
             height: auto;
-            font-family: poppins;
-            background: none;
-            text-align: justify;
-            grid-row: 5/ span 2;
-            padding-left: 30%;
-            grid-column: 6/ span 3;
-            font-size: 0.60vw;
-            font-weight: normal;
-            letter-spacing: 1px;
-            font-weight: 300;
-            line-height: 300%;
+    font-family: poppins;
+    background: none;
+    text-align: justify;
+    grid-row: 5/ span 2;
+    /* padding-left: 30%; */
+    grid-column: 2/ span 8;
+    font-size: 1.5vw;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 300%;
         }
     }}
