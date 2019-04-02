@@ -71,7 +71,33 @@
         line-height: 300%;
     }
 
+    @media screen and (max-width: 768px) {
+  
+        .business-parent {
+            height: 50vh;
+        }
 
+        .business__body {
+            height: auto;
+            font-family: poppins;
+            /* position: absolute; */
+            /* top: 50%; */
+            color: ;
+            background: white;
+            /* left: 14%; */
+            text-align: justify;
+            grid-row: 5/ span 6;
+            /* padding-left: 16%; */
+            padding: 18px;
+            grid-column: 4/ span 6;
+            n 2: ;
+            font-size: 8px;
+            font-weight: normal;
+            letter-spacing: 1px;
+            font-weight: 300;
+            line-height: 300%;
+        } 
+          
 
     @media screen and (max-width: 480px) {
         .business-parent {

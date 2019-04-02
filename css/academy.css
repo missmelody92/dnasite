@@ -82,6 +82,13 @@ h1.academy__instruction {
     width: auto;
 }
 
+.button__academy__link {
+    grid-column: 6;
+    padding: 10px;
+    grid-row: 6;
+    z-index: 1;
+}
+
 p.academy__body {
     height: auto;
     font-family: poppins;
@@ -102,20 +109,29 @@ p.academy__body {
 
 
 @media screen and (max-width: 768px) {
-    h1.academy__stylist {
-        font-size: 5vw;
-        font-family: Syncopate;
-        color: #F3F3F3;
-        text-transform: uppercase;
-        font-weight: 300;
-        padding-top: 10%;
-        grid-column: 2/ span 2;
-        grid-row: 4/ span 1;
-    }
+  
+.academy-parent {
+    height: 50vh;
+}
 
-
-    
-  }
-
+p.academy__body {
+    height: auto;
+    font-family: poppins;
+    /* position: absolute; */
+    /* top: 50%; */
+    color: #F3F3F3;
+    /* left: 14%; */
+    text-align: justify;
+    grid-row: 6 / span 2;
+    grid-column: 2/ span 4;
+    /* margin-left: 5%; */
+    margin-right: 5%;
+    font-size: 1vw;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 300%;
+}
+  
 @media screen and (max-width: 480px) {
 }

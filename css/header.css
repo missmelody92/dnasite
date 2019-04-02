@@ -40,7 +40,11 @@
     height: 71px;
     left: 61px;
     top: 58px;
+    background-color: #333;
 }
+
+
+  
 
 
 .hero__triangle {
@@ -140,7 +144,7 @@
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1024px) {
     .closebtn {
       display: none;
     }
@@ -161,9 +165,113 @@
   }
 
   @media screen and (max-width: 768px) {
-      .hero__triangle {
-          display: none;
+
+    .hero__nav {
+        display: none;
+    }
+
+    .hero__box {
+        height: 50vh;
+    }
+
+    .openbutton {
+        color: white;
+    overflow: hidden;
+    background: black;
+    width: -webkit-fill-available;
+    position: fixed;
+    font-size: 40px;
+    padding-top: 1%;
+    z-index: 5;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    }
+
+    .hero__logo {
+        display: none;
+    }
+
+    .block1,
+    .block2,
+    .block3 {
+        background-color: white;
+        width: 35px;
+        height: 5px;
+        margin-top: 4px;
+    }
+
+    .overlay {
+        overflow: hidden;
+        display: none;
+        height: 100vh;
+        width: auto;
+        position: fixed;
+        z-index: 5;
+        left: 0;
+        top: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+    .overlay-content {
+        display: block;
+        list-style-type: none;
+        height: 100vh;
+        top: 25%; /* 25% from the top */
+        width: 100%; /* 100% width */
+        text-align: center; /* Centered text/links */
+        margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
       }
+      
+      /* The navigation links inside the overlay */
+      .overlay a {
+        padding: 31px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #F6F2F2;
+        font-family: 'Poppins';
+        text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.6);
+        font-size: 3.5vw;
+        color: white;
+        display: block; /* Display block instead of inline */
+        transition: 0.3s; /* Transition effects on hover (color) */
+      }
+      
+      /* When you mouse over the navigation links, change their color */
+      .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+      }
+    .overlay .closebtn {
+        position: absolute;
+        right: 35px;
+        font-size: 40px;
+      }
+    
+
+
+    .hero__nav li {
+        padding: 4%;
+    }
+
+
+    .hero {
+        height: 50vh;
+        width: auto;
+        background-position-x: right;
+        background-repeat: no-repeat;
+    }
+
+    .hero__ul {
+        line-height: 22px;
+        font-size: 40px;
+} 
+
+.hero__triangle {
+    width: 50%;
+    height: 57%;
+}
+
 
     
   }
