@@ -277,9 +277,18 @@
   }
 
 @media screen and (max-width: 480px)  {
+
+    .openbutton {
+        background: black;
+        position: fixed;
+        overflow: hidden;
+        width: 425px;
+        font-size: 40px;
+        /* margin-left: 10px; */
+    }
+
     .hero__logo {
-        top:auto;
-        left: 80%;
+        display: none;
     }
     .hero__box {
         position: relative;

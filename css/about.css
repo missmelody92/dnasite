@@ -77,41 +77,8 @@
 }
 
 @media screen and (max-width: 480px) {
-    /*.about__image1,
-    .about__image2 {
-        height: 140px;
-    width: auto;
+    .about-parent {
+        height: 30vh;
+        width: auto;
+    }
 }
-
-.about__title {
-    font-size: 20px;
-    left: 120px;
-    top: 2px;
-   
-}
-
-.about__body {
-    
-    font-size: 10px;
-    letter-spacing: 0px;
-    line-height: 13px;
-}
-
-.about__image1 {
-    
-}
-
-.about__image2 {
-    
-}
-
-.img-parent {
-    position: relative;
-    height: 500px;
-    width: 350px;
-    margin-top: 15%;
-    left: 50%;
-    margin-left: -166px;
-}
-
-}*/

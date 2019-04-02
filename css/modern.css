@@ -91,3 +91,28 @@
             line-height: 300%;
         }
 }
+
+@media screen and (max-width: 480px)  { 
+
+.modern__parent {
+    height: 30vh;
+    padding-bottom: 10%;
+}
+.modern__p {
+    height: auto;
+    font-family: poppins;
+    /* position: absolute; */
+    /* top: 50%; */
+    color: #F3F3F3;
+    /* left: 14%; */
+    text-align: justify;
+    grid-row: 6 / span 3;
+    grid-column: 2/ span 3;
+    font-size: 1vw;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 300%;
+}
+}
+

@@ -102,55 +102,56 @@
 
     @media screen and (max-width: 480px) {
         .business-parent {
-            position: relative;
-            height: 675px;
-        width: 350px;
-        margin-top: 15%;
-        left: 10%;
-        margin-left: 0px;
+            height: 30vh;
+            margin-bottom: 5%;
+
         }
 
         .business__heading__business {
-            font-size: 20px;
-            right: 0px;
-            top: 246px;
-            left: 34px;
+            padding-left: 13%;
+            padding-top: 10%;
+            font-size: 3vw;
+            font-family: Syncopate;
+            color: ;
+            text-transform: uppercase;
+            font-weight: 300;
+            grid-column: 6/ span 1;
+            grid-row: 2/ span 1;
         }
-        
+
         .business__heading__management {
-            font-size: 20px;
-            left: 71px;
-            top: 275px;
+            font-size: 3vw;
+            font-family: Syncopate;
+            color: ;
+            text-transform: uppercase;
+            font-weight: 300;
+            padding-left: 38%;
+            grid-column: 6/ span 2;
+            grid-row: 3/ span 1;
         }
-        
-        .business__img {
-            height: 200px;
-            width: 300px;
-            top: 10px;
-        }
-        
+    
         .business__button {
-            height: 50px;
-            width: 50px;
-            top: 182px;
-            right: 308px;
-            font-size: 40px;
-            text-align: center;
-            padding-bottom: 60px;
-            }
+            background: white;
+            grid-column: 3;
+            grid-row: 4;
+            padding: 4px;
+            z-index: 1;
+            height: 5vw;
+            width: auto;
+        }
         
-            .courses {
-                display: none;
-            }
-        
-            .business__body {
-                width: 325px;
-                height: 150px;
-                top: 335px;
-                left: 3px;
-                font-size: 10px;
-                letter-spacing: 1px;
-                line-height: 16px;
-            }
-        
-    }
+        .business__body {
+            height: auto;
+            font-family: poppins;
+            background: none;
+            text-align: justify;
+            grid-row: 5/ span 2;
+            padding-left: 30%;
+            grid-column: 6/ span 3;
+            font-size: 0.60vw;
+            font-weight: normal;
+            letter-spacing: 1px;
+            font-weight: 300;
+            line-height: 300%;
+        }
+    }}
