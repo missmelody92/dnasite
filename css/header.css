@@ -178,7 +178,7 @@
         color: white;
     overflow: hidden;
     background: black;
-    width: -webkit-fill-available;
+    width: 100%;
     position: fixed;
     font-size: 40px;
     padding-top: 1%;
