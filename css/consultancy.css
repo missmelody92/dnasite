@@ -71,6 +71,27 @@
         line-height: 300%;
     }
 
+    .business-view-courses {
+        text-transform: uppercase;
+        color: #292929;
+        grid-column: 6/ span 2;
+        font-size: 0.80vw;
+        grid-row: 8;
+        margin-top: 5%;
+        border: 2px solid #292929;
+        text-align: -webkit-center;
+        display: inline-block;
+        padding: 12px;
+        display: inline-table;
+        box-sizing: border-box;
+}
+
+.business-view-courses:hover {
+    background: white;
+    color: #292929;
+}
+    
+
     @media screen and (max-width: 768px) {
   
         .business-parent {

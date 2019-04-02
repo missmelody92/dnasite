@@ -72,21 +72,26 @@ h1.academy__instruction {
    
 }
 
-.button__academy {
-    background: white;
+
+.academy-view-courses {
+    text-transform: uppercase;
+    color: white;
     grid-column: 6;
-    padding: 10px;
-    grid-row: 6;
-    z-index: 1;
-    height: 5vw;
-    width: auto;
+    font-size: 0.80vw;
+    grid-row: 8;
+    border-style: 3px solid white;
+    border: 2px solid #F6F2F2;
+    text-align: -webkit-center;
+    display: inline-block;
+    margin-top: 5%;
+    padding: 12px;
+    display: inline-table;
+    box-sizing: border-box;
 }
 
-.button__academy__link {
-    grid-column: 6;
-    padding: 10px;
-    grid-row: 6;
-    z-index: 1;
+.academy-view-courses:hover {
+    background: white;
+    color: #292929;
 }
 
 p.academy__body {
@@ -157,13 +162,5 @@ p.academy__body {
     font-weight: 300;
     line-height: 300%;
 }
-
-.button__academy {
-    background: white;
-    grid-column: 6;
-    padding: 4px;
-    grid-row: 6;
-    z-index: 1;
-    height: 5vw;
 
 }
