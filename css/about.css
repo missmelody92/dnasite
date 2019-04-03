@@ -78,45 +78,54 @@
 
 @media screen and (max-width: 480px) {
     .about-parent {
-        height: 32vh;
+        height: 100vh;
         width: auto;
-    }
-
-    .about__body {
-        font-size: 1.5vw;
-        grid-row: 5/ span 2;
-        grid-column: 5/ span 4;
-        /* letter-spacing: 1px; */
-        font-weight: 300;
-        line-height: 300%;
     }
 
     .about__what {
-        grid-column: 4/ span 2;
-        padding-top: 13%;
-        padding-left: 15%;
-        grid-row: 3;
-        font-size: 3vw;
+        grid-column: 5;
+        grid-row: 2;
+        padding: 0%;
+        font-size: 6vw;
     }
 
     .about__wedo {
-        grid-column: 5/ span2;
-        grid-row: 4;
-        font-size: 3vw;
+        font-family: Syncopate;
+    font-weight: normal;
+    grid-column: 6/ span3;
+    grid-row: 2;
+    margin-top: 10%;
+    text-transform: uppercase;
+    font-size: 6vw;
+}
     }
 
     .about__image2 {
-        height: 19vw;
-        grid-column: 2/span 2;
-        grid-row: 4/span 2;
+        height: 27vw;
+        grid-column: 5/span 2;
+        grid-row: 3/span 2;
         width: auto;
+        margin-top: 10%;
     }
 
     .about__image1 {
-        height: 19vw;
+        height: 27vw;
         width: auto;
-        grid-column: 3/span 2;
-        grid-row: 6/span 2;
+        margin-top: 10%;
+        grid-column: 6/span 2;
+        grid-row: 4/span 2;
     }
-}
+
+    .about__body {
+        font-size: 2.35vw;
+    grid-row: 6/ span 6;
+    grid-column: 1/ span 10;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px;
+    /* letter-spacing: 1px; */
+    font-weight: 300;
+    line-height: 300%;
+    }}
 }

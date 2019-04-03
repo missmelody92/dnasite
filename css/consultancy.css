@@ -94,85 +94,58 @@
 
     @media screen and (max-width: 768px) {
   
-        .business-parent {
-            height: 50vh;
-            margin-bottom: 5%;
-        }
-
-        .business__body {
-            height: auto;
-            font-family: poppins;
-            /* position: absolute; */
-            /* top: 50%; */
-            color: ;
-            background: white;
-            /* left: 14%; */
-            text-align: justify;
-            grid-row: 5/ span 6;
-            /* padding-left: 16%; */
-            padding: 18px;
-            grid-column: 4/ span 6;
-            n 2: ;
-            font-size: 8px;
-            font-weight: normal;
-            letter-spacing: 1px;
-            font-weight: 300;
-            line-height: 300%;
-        } 
-          
-
-    @media screen and (max-width: 480px) {
-        .business-parent {
-            height: 45vh;
-            margin-bottom: 5%;
-
-        }
-
-        .business__heading__business {
-            padding-left: 13%;
-    padding-top: 27%;
-    font-size: 3vw;
-    font-family: Syncopate;
-    color: ;
-    text-transform: uppercase;
-    font-weight: 300;
-    grid-column: 6/ span 1;
-    grid-row: 2/ span 1;
-        }
-
-        .business__heading__management {
-            font-size: 3vw;
-            font-family: Syncopate;
-            color: ;
-            text-transform: uppercase;
-            font-weight: 300;
-            padding-left: 38%;
-            grid-column: 6/ span 2;
-            grid-row: 3/ span 1;
-        }
+        @media screen and (max-width: 480px) {
+            .business-parent {
+                height: 100vh;
+                margin-bottom: 5%;
+            }
     
-        .business__button {
-            background: white;
-            grid-column: 3;
-            grid-row: 4;
-            padding: 4px;
-            z-index: 1;
-            height: 5vw;
-            width: auto;
-        }
+            .business__heading__business {
+                /* padding-left: 13%; */
+                /* padding-top: 27%; */
+                font-size: 5vw;
+                font-family: Syncopate;
+                color:;
+                text-transform: uppercase;
+                font-weight: 300;
+                grid-column: 6/ span 1;
+                grid-row: 2/ span 1;
+            }
+    
+            .business__heading__management {
+                font-size: 5vw;
+                font-family: Syncopate;
+                color:;
+                text-transform: uppercase;
+                font-weight: 300;
+                /* margin-right: 10%; */
+                /* padding-left: 38%; */
+                grid-column: 6/ span 2;
+                grid-row: 3/ span 1;
+            }
         
-        .business__body {
-            height: auto;
-    font-family: poppins;
-    background: none;
-    text-align: justify;
-    grid-row: 5/ span 2;
-    /* padding-left: 30%; */
-    grid-column: 2/ span 8;
-    font-size: 1.5vw;
-    font-weight: normal;
-    letter-spacing: 1px;
-    font-weight: 300;
-    line-height: 300%;
-        }
-    }}
+            .business__button {
+                background: white;
+                grid-column: 3;
+                grid-row: 4;
+                padding: 4px;
+                z-index: 1;
+                height: 5vw;
+                width: auto;
+            }
+            
+            .business__body {
+                height: auto;
+                font-family: poppins;
+                background: none;
+                text-align: center;
+                grid-row: 4/ span 10;
+                /* padding-left: 30%; */
+                grid-column: 1/ span 10;
+                font-size: 2.5vw;
+                font-weight: normal;
+                letter-spacing: 1px;
+                font-weight: 300;
+                line-height: 300%;
+            }
+        }}
