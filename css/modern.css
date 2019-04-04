@@ -90,6 +90,18 @@
     width: auto;
 }
 
+@media screen and (min-width: 1200px) 
+   { 
+    .about__what__mobile {
+        display: none;
+    }
+
+    .modern__mobile__title {
+        display: none;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
   
     .modern__parent {
