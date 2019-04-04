@@ -141,48 +141,50 @@ p.academy__body {
 @media screen and (max-width: 480px) {
     .academy-parent {
         height: 100vh;
+        padding-top: 10%;
+        padding-bottom: 30%;
     }
 
 
-p.academy__body {
-    height: auto;
-    font-family: poppins;
-    /* position: absolute; */
-    /* top: 50%; */
-    color: #F3F3F3;
-    /* left: 14%; */
-    text-align: center;
-    grid-row: 7 / span 3;
-    grid-column: 1/ span 10;
-    /* margin-left: 5%; */
-    /* margin-right: 5%; */
-    font-size: 2.20vw;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    font-weight: normal;
-    letter-spacing: 1px;
-    font-weight: 300;
-    line-height: 300%;
-}
+    p.academy__body {
+        height: auto;
+        font-family: poppins;
+        /* position: absolute; */
+        /* top: 50%; */
+        color: #F3F3F3;
+        /* left: 14%; */
+        text-align: center;
+        grid-row: 8 / span 3;
+        grid-column: 1/ span 10;
+        /* margin-left: 5%; */
+        /* margin-right: 5%; */
+        font-size: 2.20vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 7%;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-weight: 300;
+        line-height: 300%;
+    }
 
-.academy-view-courses {
-    text-transform: uppercase;
-    color: white;
-    font-size: 3.5vw;
-    /* grid-row: 8; */
-    /* grid-column: 9; */
-    border-style: 3px solid white;
-    border: 2px solid #F6F2F2;
-    /* text-align: -webkit-center; */
-    display: grid;
-    margin-top: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    padding: 2px;
-    /* display: inline-table; */
-    /* box-sizing: border-box; */
-}
+    .academy-view-courses {
+        text-transform: uppercase;
+        color: white;
+        font-size: 3.5vw;
+        /* grid-row: 8; */
+        /* grid-column: 9; */
+        border-style: 3px solid white;
+        border: 2px solid #F6F2F2;
+        /* text-align: -webkit-center; */
+        display: grid;
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-top: 2%;
+        padding: 2px;
+        /* display: inline-table; */
+        /* box-sizing: border-box; */
+    }
 
 .academy__shape {
     display: none;

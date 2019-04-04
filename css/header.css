@@ -171,7 +171,7 @@
     }
 
     .hero__box {
-        height: 50vh;
+        height: 100vh;
     }
 
     .openbutton {
@@ -256,7 +256,7 @@
 
 
     .hero {
-        height: 50vh;
+        height: 100vh;
         width: auto;
         background-position-x: right;
         background-repeat: no-repeat;
@@ -292,7 +292,7 @@
     }
     .hero__box {
         position: relative;
-            height: 50vh;
+            height: 100vh;
             width: auto;
         }
     
@@ -365,9 +365,9 @@
 
 
     .hero {
-        height: 50vh;
+        height: 100vh;
         width: -webkit-fill-available;
-        background-position-x: right;
+        background-position-x: 69%;
         background-repeat: no-repeat;
     }
 
@@ -378,7 +378,7 @@
 
 .hero__triangle {
     width: 98%;
-    height: 67%;
+    height: 49%;
 }
 
 }

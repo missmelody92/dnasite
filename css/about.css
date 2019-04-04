@@ -62,18 +62,10 @@
 }
 
 @media screen and (max-width: 768px) {
-.about-parent {
-    height: 50vh;
-    width: auto;
-}
 
-.about__body {
-    font-size: 1vw;
-    grid-row: 6/ span 2;
-    grid-column: 7/ span 3;
-    /* letter-spacing: 1px; */
-    font-weight: 300;
-    line-height: 300%;
+
+.about__what__mobile {
+    display: none;
 }
 
 @media screen and (max-width: 480px) {
@@ -82,30 +74,30 @@
         width: auto;
     }
 
+    .about__what__mobile {
+        display: inline-block;
+    grid-column: 4/ span 4;
+    text-transform: uppercase;
+    font-size: 4vw;
+    grid-row: 2;
+    font-family: Syncopate;
+    }
+
     .about__what {
-        grid-column: 5;
-        grid-row: 2;
-        padding: 0%;
-        font-size: 6vw;
+        display: none;
     }
 
     .about__wedo {
-        font-family: Syncopate;
-    font-weight: normal;
-    grid-column: 6/ span3;
-    grid-row: 2;
-    margin-top: 10%;
-    text-transform: uppercase;
-    font-size: 6vw;
+        display: none;
 }
     }
 
     .about__image2 {
         height: 27vw;
-        grid-column: 5/span 2;
-        grid-row: 3/span 2;
-        width: auto;
-        margin-top: 10%;
+    grid-column: 5/span 2;
+    grid-row: 2/span 2;
+    width: auto;
+    margin-top: 56%;
     }
 
     .about__image1 {

@@ -55,6 +55,27 @@
     font-weight: 300;
     line-height: 300%;
 }
+
+.modern__enquire {
+    text-transform: uppercase;
+    color: white;
+    grid-column: 6;
+    font-size: 0.80vw;
+    grid-row: 8;
+    border-style: 3px solid white;
+    border: 2px solid #F6F2F2;
+    text-align: -webkit-center;
+    display: inline-block;
+    margin-top: 5%;
+    padding: 12px;
+    display: inline-table;
+    box-sizing: border-box;
+}
+
+.modern__enquire:hover {
+    background: white;
+    color: #292929;
+}
 .modern__img1 {
     height: 19vw;
     grid-column: 6 / span 4;
@@ -71,64 +92,98 @@
 
 @media screen and (max-width: 768px) {
   
-.modern__parent {
-        height: 50vh;
-    }
-        .modern__p {
-            height: auto;
-            font-family: poppins;
-            /* position: absolute; */
-            /* top: 50%; */
-            color: #F3F3F3;
-            /* left: 14%; */
-            text-align: justify;
-            grid-row: 6 / span 2;
-            grid-column: 2/ span 3;
-            font-size: 1vw;
-            font-weight: normal;
-            letter-spacing: 1px;
-            font-weight: 300;
-            line-height: 300%;
+    .modern__parent {
+            height: 100vh;
         }
-}
+            .modern__p {
+                height: auto;
+                font-family: poppins;
+                /* position: absolute; */
+                /* top: 50%; */
+                color: #F3F3F3;
+                /* left: 14%; */
+                text-align: justify;
+                grid-row: 6 / span 2;
+                grid-column: 2/ span 3;
+                font-size: 1vw;
+                font-weight: normal;
+                letter-spacing: 1px;
+                font-weight: 300;
+                line-height: 300%;
+            }
+    }
+    
+    @media screen and (max-width: 480px)  { 
 
-@media screen and (max-width: 480px)  { 
+        .modern__mobile__title {
+            font-size: 4vw;
+            grid-column: 3/ span 7;
+            grid-row: 2;
+            font-family: Syncopate;
+            color: #F3F3F3;
+            text-transform: uppercase;
+        }
 
-.modern__parent {
-    height: 31vh;
-    padding-bottom: 10%;
-}
-.modern__p {
-    height: auto;
-    font-family: poppins;
-    /* position: absolute; */
-    /* top: 50%; */
-    color: #F3F3F3;
-    /* left: 14%; */
-    text-align: justify;
-    grid-row: 6 / span 3;
-    grid-column: 2/ span 5;
-    font-size: 1.5vw;
-    font-weight: normal;
-    letter-spacing: 1px;
-    font-weight: 300;
-    line-height: 300%;
-}
-
-.modern__img1 {
-    height: 19vw;
-    margin-left: 5%;
-    grid-column: 7 / span 4;
-    grid-row: 4 /span 4;
-    width: auto;
-    filter: grayscale();
-}
-
-.modern__img2 {
-    height: 19vw;
-    grid-column: 8 / span 4;
-    grid-row: 6 /span 4;
-    width: auto;
-}
-}
-
+        .modern__title1,
+        .modern__title2 {
+            display: none;
+        }
+    
+    .modern__parent {
+        height: 100vh;
+        /* padding-bottom: 10%; */
+    }
+    .modern__p {
+        height: auto;
+        font-family: poppins;
+        /* position: absolute; */
+        /* top: 50%; */
+        color: #F3F3F3;
+        margin-left: 5%;
+        margin-right: 5%;
+        /* left: 14%; */
+        text-align: center;
+        grid-row: 6 / span 3;
+        grid-column: 1/ span 10;
+        font-size: 2.5vw;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-weight: 300;
+        line-height: 300%;
+    }
+    .modern__enquire {
+        text-transform: uppercase;
+        color: white;
+        grid-column: 6;
+        font-size: 2.5vw;
+        grid-row: 8;
+        border-style: 3px solid white;
+        border: 2px solid #F6F2F2;
+        text-align: -webkit-center;
+        display: inline-block;
+        margin-top: 5%;
+        padding: 0px;
+        padding-left: 25%;
+        padding-right: 25%;
+        display: inline-table;
+        box-sizing: border-box;
+    }
+    
+    .modern__img1 {
+        height: 27vw;
+        margin-left: 0%;
+        grid-column: 4 / span 4;
+        grid-row: 3 /span 4;
+        width: auto;
+        filter: grayscale();
+    }
+    
+    .modern__img2 {
+        height: 27vw;
+        grid-column: 6 / span 4;
+        grid-row: 4 /span 4;
+        width: auto;
+    }
+    }
+    
+    
