@@ -311,10 +311,11 @@
 
     .overlay {
         overflow: hidden;
+        padding-top: 10%;
         display: none;
-        height: 50vh;
+        height: 100vh;
         width: auto;
-        position: absolute;
+        position: fixed;
         z-index: 5;
         left: 0;
         top: 0;
@@ -326,7 +327,7 @@
     .overlay-content {
         display: block;
         list-style-type: none;
-        height: 50vh;
+        height: 100vh;
         top: 25%; /* 25% from the top */
         width: 100%; /* 100% width */
         text-align: center; /* Centered text/links */
@@ -335,7 +336,7 @@
       
       /* The navigation links inside the overlay */
       .overlay a {
-        padding: 10px;
+        padding: 30px;
         text-transform: uppercase;
         text-decoration: none;
         color: #F6F2F2;
